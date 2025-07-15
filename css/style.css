@@ -1,0 +1,37 @@
+.header {
+  background: linear-gradient(
+      to bottom right,
+      rgb(0, 0, 0, 0.5),
+      rgb(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 650px;
+}
+
+/* Navbar */
+@media (max-width: 995px) {
+  .navbar {
+    background: var(--bs-dark) !important;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.navbar{
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-sticky{
+    opacity: 0.9 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7) !important;
+}
+
